@@ -1,0 +1,3 @@
+- **Firebase Integration**: Persistent storage of evolved networks and performance metrics
+- **Checkpoint System**: Regular state snapshots for recovery and analysis
+- **Performance Database**: Historical fitness tracking across generations
