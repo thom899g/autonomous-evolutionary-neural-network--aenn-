@@ -1,0 +1,18 @@
+- **Strategy Orchestrator**: Coordinates multiple evolved strategies
+- **Market Simulator**: Backtesting environment for candidate networks
+- **Real-time Adaptation**: Dynamic strategy switching based on regime detection
+
+## Evolutionary Algorithm
+1. **Initialization**: Generate random neural network population
+2. **Evaluation**: Test networks on current market regime
+3. **Selection**: Retain top-performing networks
+4. **Reproduction**: Apply crossover and mutation
+5. **Replacement**: Introduce new networks while preserving elites
+6. **Iteration**: Continuous evolution with adaptive mutation rates
+
+## Technical Stack
+- **Neural Networks**: TensorFlow/Keras for network representation
+- **Data Processing**: pandas/numpy for feature engineering
+- **Evolution**: Custom genetic algorithm implementation
+- **Storage**: Firebase Firestore for state persistence
+- **Logging**: Structured logging to stdout and Firebase
