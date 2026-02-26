@@ -1,0 +1,4 @@
+- **Population Manager**: Maintains and evolves a population of neural network trading agents
+- **Mutation Engine**: Implements structural mutations (add/remove layers/nodes) and parametric mutations
+- **Crossover Engine**: Combines successful network architectures
+- **Fitness Evaluator**: Assesses trading performance using Sharpe ratio, drawdown, and profit metrics
