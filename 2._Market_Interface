@@ -1,0 +1,3 @@
+- **Data Pipeline**: Real-time market data ingestion and feature engineering
+- **Signal Generator**: Converts neural network outputs to trading signals
+- **Risk Manager**: Position sizing and portfolio constraints
